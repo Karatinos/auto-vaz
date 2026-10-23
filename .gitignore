@@ -1,0 +1,18 @@
+# Environment / secrets — never commit real endpoints or tokens
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Runtime artifacts
+metrics_report.json
+runs/
+data/local_tasks/
+*.log
